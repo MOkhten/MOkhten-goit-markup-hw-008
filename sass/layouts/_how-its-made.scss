@@ -1,0 +1,173 @@
+:root {
+    --main-text-color: #000000;
+    --secondary-text-color: #907E82;
+    --light-text-color: #FFFFFF;
+    --accent-color: #D41443;
+    --main-bg-color: #FFFFFF;
+    --secondary-bg-color: #FFF5F6;
+}
+
+body {
+    margin: 0px;
+    // background-color: #FFF5F6;
+} 
+
+.about__product {
+    
+    background-color: var(--secondary-bg-color);
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+
+.container {
+    // max-width: 350px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @media screen and (min-width: 320px) {
+        width: 320px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 834px;
+        padding-left: 32px;
+        padding-right: 34px;
+
+    }
+}
+
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.about-product__name {
+    justify-content: center;
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: Titan One;
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+            font-size: 48px;
+        }
+}
+
+
+.about {
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    color: #FFA5BA;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Titan One;
+@media screen and (min-width: 768px) {
+    font-size: 26px;
+}
+
+}
+
+.about-picture {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.product__picture {
+    margin-bottom: 40px;
+    @media screen and (min-width: 768px) {
+            margin-right: 32px;
+    
+        }
+}
+
+.about-item {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.58;
+    color: var(--main-text-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.about--product {
+    color: var(--secondary-text-color);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.58;
+    padding-top: 30px;
+    text-align: left;
+    justify-content: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    line-height: 162%;
+}
+
+.about--milk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // max-width: 280px;
+    // max-height: 133px;
+    margin-left: 0px;
+    margin-right: 0px;
+    // margin-top: -20px;
+    // background-image: url(../img/about-bgmilk-mob.png);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: top;
+
+}
+
+.about__picture--milk{
+    position: absolute;
+    max-width: 100%;
+    top: 192%;
+    left: 10;
+    justify-content: center;
+    text-align: center;
+}
+
+.production {
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.button-about {
+    width: 176px;
+    height: 44px;
+    padding-left: 37px;
+    padding-right: 56px;
+    border-radius: 22px;
+    border: transparent;
+    background-color: var(--main-bg-color);
+    color: var(--accent-color);
+    margin-top: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 14px;
+}
+
