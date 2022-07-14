@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.page {
+    background-color: #FFF5F6;
+    margin: 0px;
+    letter-spacing: 0.04em;
+    scroll-behavior: auto;
+}
+
+.container {
+    max-width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @media screen and (min-width: 768px;) {
+        max-width:  834px;
+        padding-left: 32px;
+            padding-right: 34px;
+
+    }
+}
+
+img {
+    width: 100%;
+    display: block;
+        height: auto;
+}
+
+.product-name {
+    justify-content: center;
+    text-align: center;
+    color: #D41443;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: Titan One;
+margin-bottom: 32px;
+}
+
+
+.about {
+    text-align: center ;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    color: #FFA5BA;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Titan One;
+    
+
+}
+
+.about-picture {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product__picture {
+    margin-bottom: 40px;
+}
+
+.about-item {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.58;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about--product {
+    color: #907E82;
+    font-size: 12px;
+        font-weight: 500;
+        line-height: 1.58;
+        padding-top: 40px;
+        text-align: left;
+        justify-content: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 60px ;
+}
+
+.about--milk {
+    display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+    max-width: 280px;
+        max-height: 133px;
+        margin-left: 0px;
+        margin-right: 0px;
+    margin-top: -23px;
+        background-image: url(../img/milk.png);
+        background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+        
+}
+
+.button-about {
+    width: 176px;
+    height: 44px;
+    padding-left: 37px ;
+    padding-right: 56px;
+    border-radius: 22px;
+    border: transparent;
+    background-color: #FFFFFF;
+    color: #D41443;
+margin-top: 20px;
+}
