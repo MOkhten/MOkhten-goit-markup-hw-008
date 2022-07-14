@@ -161,8 +161,9 @@ img {
 
 .about__picture--milk {
   position: absolute;
+  background-repeat: no-repeat;
   max-width: 100%;
-  top: 192%;
+  top: 600px;
   left: 10;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
