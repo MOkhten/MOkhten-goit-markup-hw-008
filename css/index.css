@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap");
+.list {
+  list-style: none;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* agent Styles reset */
+body,
+h1,
+h2,
+h3,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- Прибираємо чорний аутлайн при фокусі --- */
+* {
+  outline: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  --main-text-color: #000000;
+  --secondary-text-color: #907E82;
+  --light-text-color: #FFFFFF;
+  --accent-color: #D41443;
+  --main-bg-color: #FFFFFF;
+  --secondary-bg-color: #FFF5F6;
+}
+
+/* Hiding class, making content visible only to screen readers but not visually */
+.hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}/*# sourceMappingURL=index.css.map */

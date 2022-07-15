@@ -131,16 +131,8 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    // max-width: 280px;
-    // max-height: 133px;
     margin-left: 0px;
     margin-right: 0px;
-    // margin-top: -20px;
-    // background-image: url(../img/about-bgmilk-mob.png);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: top;
-
 }
 
 .about__picture--milk{
@@ -162,14 +154,19 @@ img {
     width: 176px;
     height: 44px;
     padding-left: 37px;
-    padding-right: 56px;
+    padding-right: 17px;
     border-radius: 22px;
     border: transparent;
     background-color: var(--main-bg-color);
     color: var(--accent-color);
     margin-top: 20px;
     font-family: DM Sans;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
+}
+
+.about__icon {
+    color: var(--accent-color);
+    margin-left: 13px;
 }
 
